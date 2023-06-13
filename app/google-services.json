@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "225966456236",
+    "firebase_url": "https://teste-de-recycler-view-default-rtdb.firebaseio.com",
+    "project_id": "teste-de-recycler-view",
+    "storage_bucket": "teste-de-recycler-view.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225966456236:android:f2c90af9d2bb531c7dce09",
+        "android_client_info": {
+          "package_name": "com.example.testederecyclerviewcomfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225966456236-035riqce5cl3t3dobeeqrh97k440re0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK3-KQS17VZbTemhE8ccAADZqrjMyn_us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225966456236-035riqce5cl3t3dobeeqrh97k440re0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
