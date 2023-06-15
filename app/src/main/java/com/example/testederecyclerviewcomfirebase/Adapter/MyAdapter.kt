@@ -22,10 +22,10 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
 
-        val currentitem = userList[position]
+        val currentItem = userList[position]
 
-        holder.tituloJogo.text = currentitem.nome
-        holder.dataJogo.text = currentitem.lancamento
+        holder.tituloJogo.text = currentItem.nome
+        holder.dataJogo.text = currentItem.lancamento
 
     }
 
