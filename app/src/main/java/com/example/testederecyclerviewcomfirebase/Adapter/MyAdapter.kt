@@ -3,10 +3,13 @@ package com.example.testederecyclerviewcomfirebase.Adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.testederecyclerviewcomfirebase.Models.User
 import com.example.testederecyclerviewcomfirebase.R
+import com.squareup.picasso.Picasso
+import com.squareup.picasso.RequestCreator
 
 class MyAdapter : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
@@ -26,6 +29,7 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
         holder.tituloJogo.text = currentItem.nome
         holder.dataJogo.text = currentItem.lancamento
+        Picasso.get().load(currentItem.imgURI).into(holder.fotoJogo)
 
     }
 
@@ -45,6 +49,7 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
         val tituloJogo : TextView = itemView.findViewById(R.id.titulo_jogo)
         val dataJogo : TextView = itemView.findViewById(R.id.data_jogo)
+        val fotoJogo : ImageView = itemView.findViewById(R.id.foto_jogo)
 
     }
 
